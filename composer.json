@@ -4,15 +4,15 @@
   "type": "library",
   "license": "MIT",
   "keywords": ["transfi", "payment", "checkout", "api", "sdk"],
-  "homepage": "https://github.com/Trans-Fi/transfi-checkout-sdk",
+  "homepage": "https://github.com/Trans-Fi/transfi-chekout-php-sdk",
   "require": {
     "php": ">=7.4",
     "guzzlehttp/guzzle": "^7.0"
   },
   "autoload": {
-    "classmap": [
-      "src/"
-    ]
+    "psr-4": {
+      "TransFi\\": "src/"
+    }
   },
   "minimum-stability": "stable",
   "prefer-stable": true
