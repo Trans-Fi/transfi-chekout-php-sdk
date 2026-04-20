@@ -1,0 +1,19 @@
+{
+  "name": "transfi/payment-sdk",
+  "description": "TransFi Payment API SDK for PHP",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["transfi", "payment", "checkout", "api", "sdk"],
+  "homepage": "https://github.com/Trans-Fi/transfi-checkout-sdk",
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
